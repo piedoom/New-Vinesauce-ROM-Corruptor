@@ -1,0 +1,32 @@
+﻿<Window x:Class="Vinesauce_ROM_Corruptor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vinesauce_ROM_Corrupter"
+        mc:Ignorable="d"
+        Title="ROM Corrupter" Height="500" Width="700" Background="#191918"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="runCorruptorButton"  Grid.Row="0" Content="Run" Click="runCorruptorButton_Click"></Button>
+        
+        <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch" Background="#1B1C1B">
+            <Button x:Name="romButton" Style="{StaticResource SideButton}" Content="ROM" Click="romButton_Click"/>
+            <Button x:Name="emulatorButton" Style="{StaticResource SideButton}" Content="Emulator" Click="emulatorButton_Click"/>
+            <Button x:Name="corruptionButton" Style="{StaticResource SideButton}" Content="Corruption" Click="corruptionButton_Click"/>
+            <Button x:Name="aboutButton" Style="{StaticResource SideButton}" Content="About" Click="aboutButton_Click"/>
+        </StackPanel>
+        <DockPanel Grid.ColumnSpan="1" Grid.Column="1" Grid.Row="1" >
+            <Frame Name="mainFrame" Padding="24px"/>
+        </DockPanel>
+    </Grid>
+</Window>
