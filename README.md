@@ -24,6 +24,10 @@ Currently, NVRC has limited functionality.  The checklist below shows progress.
 - [X] About page
 - [X] Queue (not going to be implemented)
 - [ ] Save Settings
+- 
+
+## Contributing
+Any contributions are welcome.  Please thoroughly document code and changes.  Most features can be completed simply by hooking in a UI element to Rikerz's original backend code.
 
 # Credit & License
 The brains behind this corruption tool are the work of [Rikerz](https://github.com/rikerz).  
