@@ -22,7 +22,7 @@ Currently, NVRC has limited functionality.  The checklist below shows progress.
 - [ ] NES CPU Jam protection option
 - [ ] Extended corruption settings
 - [X] About page
-- [ ] Queue
+- [X] Queue (not going to be implemented)
 - [ ] Save Settings
 
 # Credit & License
