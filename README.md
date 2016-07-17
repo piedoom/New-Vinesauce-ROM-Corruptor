@@ -1,6 +1,8 @@
 # New-Vinesauce-ROM-Corruptor
 A UI overhaul for [Rikerz's](https://github.com/rikerz) excellent [VRC](https://github.com/Rikerz/VRC).
 
+![image](https://cloud.githubusercontent.com/assets/8846211/16901668/24fb41a2-4c18-11e6-877d-23db18804abb.png)
+
 ## Why?
 Vinesauce's corruption videos are by far some of the most entertaining video game videos I have watched.  Rikerz's tool is great, but it's a little dated and hasn't been updated in a few years.  This project aims to update the UI and package the corruption code into a nice, neat package.
 
